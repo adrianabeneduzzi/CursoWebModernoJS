@@ -1,18 +1,22 @@
-var nome = "Caneta";
-var quantidade = 10;
-var preco = 6.4;
-let imposto = 1.5;
-let precoFinal = preco + imposto;
+console.log(19.9 * 0.6); //valores literais
 
-console.log(nome);
-console.log(quantidade); //valor literal
-console.log(preco);
-console.log(imposto);
-console.log(precoFinal);
+let preco = 19.90;
+let desconto = 0.4;
 
-nome = "Caneta BIC";
-console.log(nome);
+//console.log(preco * (1 - desconto));
 
-//efeitos colaterais - não recomendado
-blabla = 123;
-console.log(blabla);
+let precoComDesconto = preco * (1 - desconto);
+console.log(precoComDesconto);
+
+let nome = "Caderno ";//String (Texto) -> sequencia de símbolos
+let categoria = "Papelaria";
+//console.log(nome + categoria);
+//console.log(nome + " " + categoria);
+//console.log("Produto: " + nome + ", Categoria: " + categoria);
+console.log("Produto: " + nome
+    + ", Categoria: " + categoria
+    + ", Preço: " + preco
+    + ", Desconto: " + desconto);
+
+console.log(1 + 1); //soma - valores inteiros
+console.log("1" + 1);//concatenação
