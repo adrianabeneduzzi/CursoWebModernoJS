@@ -8,3 +8,5 @@ console.log('Passo #02');//mais um exemplo de console.log
 * 
 *Esse é um comentário de multiplas linha
 */
+
+//Comentário de uma linha
